@@ -1,0 +1,22 @@
+Insights from the Car Price Dataset:
+
+Dataset Overview:
+Contains 10,000 records with 10 columns.
+No missing values.
+Data types include categorical (Brand, Model, Fuel_Type, Transmission) and numerical (Year, Engine_Size, Mileage, Doors, Owner_Count, Price).
+
+Key Attributes:
+Brand & Model: Various car brands and models.
+Year: Range of manufacturing years.
+Engine Size: Varies, with fuel type (Diesel, Hybrid, Electric) influencing engine size.
+Transmission: Includes Manual, Automatic, and Semi-Automatic.
+Mileage: Wide range, with some high mileage values.
+Doors: Typically 2–4.
+Owner Count: Indicates the number of previous owners.
+Price: Target variable, showing car price.
+
+Potential Insights:
+Price trends based on brand, model, year, mileage, and owner count.
+Impact of fuel type and transmission on price.
+High mileage and multiple owners might reduce car value.
+Newer models likely have higher prices.
