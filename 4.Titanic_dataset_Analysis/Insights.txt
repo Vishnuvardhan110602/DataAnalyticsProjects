@@ -1,0 +1,26 @@
+Insights from the Titanic Notebook:
+
+Dataset Overview:
+The dataset contains 891 passengers.
+There are 12 columns (fields) in the dataset.
+
+Code Insights:
+The notebook imports essential libraries: pandas, numpy, seaborn, and matplotlib.
+Reads the dataset (train.csv) into a dataframe (td).
+Displays the first 5 rows (td.head(5)) and dataset information (td.info()).
+
+Exploratory Data Analysis (EDA):
+The dataset is visualized using Seaborn's count plots to explore:
+Survival distribution (sb.countplot(x="Survived", data=td))
+Passenger class distribution (sb.countplot(x="Pclass", data=td))
+Gender distribution across passenger classes (sb.countplot(x="Pclass", hue="Sex", data=td))
+Survival rates across passenger classes (sb.countplot(x="Survived", hue="Pclass", data=td))
+Survival rates by age group (sb.countplot(x="Survived", hue="Age", data=td))
+
+Missing Data Analysis:
+The notebook checks for missing values using:
+python
+Copy
+Edit
+td.isnull()
+td.isnull().sum()
